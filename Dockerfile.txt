@@ -1,17 +1,23 @@
-# Use the official PHP 8.3.14 with Apache image
-FROM php:8.3.14-apache
+# Use official PHP with Apache
+FROM php:8.1-apache
 
-# Install required PHP extensions
+# Install necessary PHP extensions
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
-# Set the working directory
-WORKDIR /var/www/html/
+# Enable Apache mod_rewrite
+RUN a2enmod rewrite
 
-# Copy project files from your local system to the container
-COPY . /var/www/html/
+# Set working directory
+WORKDIR /var/www/website
 
-# Expose Apache's default port
+# Copy website files to container
+COPY . /var/www/website/
+
+# Set proper permissions
+RUN chown -R www-data:www-data /var/www/website
+
+# Expose port 80 (Render assigns its own port)
 EXPOSE 80
 
-# Start the Apache server
+# Set the command to run Apache in the foreground
 CMD ["apache2-foreground"]
