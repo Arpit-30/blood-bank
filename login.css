@@ -1,0 +1,89 @@
+    body{
+        width:100wh;
+        height: 100vh;
+        background-image: url("—Pngtree—blood\ donation\ poster\ board\ background_1048920.jpg");
+        background-size:cover;
+        mask-repeat: no-repeat;
+        /* margin-left: 90px;
+        margin-right: 90px; */
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    label{
+        font-size:m;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        color: black;
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+                
+    input[type=submit]{body {
+        width: 100vw; /* corrected 'wh' to 'vw' */
+        height: 100vh;
+        /* background-image: url("wp4323509.jpg"); */
+        background-size: cover;
+        background-repeat: no-repeat; /* corrected 'mask-repeat' to 'background-repeat' */
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+    }
+
+    label {
+        font-size: medium; /* corrected 'm' to 'medium' */
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h1 {
+        color: white;
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input[type=submit] {
+        font-size: larger;
+    }
+
+    .tb1 {
+        border-radius: 7px;
+        width: 250px;
+        height: 20px;
+    }
+
+    .btn {
+        border-radius: 7px;
+        width: 100px;
+        height: 30px;
+    }
+
+        font-size: larger;
+    }
+    .tb1 {
+        border-radius: 7px;
+        width: 250px;
+        height: 20px;
+        
+    }
+
+    .btn{
+        border-radius: 7px;
+        width: 100px;
+        height: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    

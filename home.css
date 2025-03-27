@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('wp4323509.jpg'); /* Add your background image here */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.hero-section .btn {
+    background-color: white;
+    color: #b30000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.hero-section .btn:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.how-it-works-section h2 {
+    color: #b30000;
+    font-size: 2.5rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.step-item {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-item h3 {
+    color: #b30000;
+}
+
+.step-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Why Donate Section */
+.why-donate-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.why-donate-section h2 {
+    color: #b30000;
+    font-size: 2.5rem;
+}
+
+.why-donate-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-donate-section ul li {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+/* Blood Facts Section */
+.blood-facts-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.blood-facts-section h2 {
+    color: #b30000;
+    font-size: 2.5rem;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.fact-item {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fact-item h3 {
+    color: #b30000;
+}
+
+.fact-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}

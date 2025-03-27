@@ -1,0 +1,42 @@
+body{
+    width:100wh;
+    height: 100vh;
+    background-image: url("—Pngtree—creative\ simple\ background\ design\ of_1645341.png");
+    background-size:cover;
+    mask-repeat: no-repeat;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    font-size: larger;
+    font-family: Arial, sans-serif;
+}
+
+label{
+    font-size:m;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+               
+input[type=submit]{
+    font-size: larger;
+}
+.tb1 {
+    border-radius: 7px;
+    width: 250px;
+    height: 20px;
+    
+}
+.sel{
+    border-radius: 7px;
+    width: 90px;
+    height: 20px;
+}
+.btn{
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
